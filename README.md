@@ -25,12 +25,12 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Features](#features)
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
     - [Usage](#usage)
     - [Testing](#testing)
-- [Features](#features)
 - [Roadmap](#roadmap)
 
 ---
