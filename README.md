@@ -25,6 +25,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+    - [Rules](#rules)
 - [Features](#features)
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
@@ -38,6 +39,14 @@
 ## Overview
 
 StuckInTheMud is a versatile developer tool that streamlines the creation of interactive, multimedia-rich games. It combines core gameplay mechanics with reliable data structures and seamless audio integration to deliver engaging user experiences.
+
+### Rules
+
+This game uses 4 dice. The goal is to not roll a 5 or 2, either of which makes that die "stuck." Dice 
+are rolled, with non-stuck dice added up. Stuck dice are not rolled again. A player's turn ends 
+when all dice are stuck (i.e., the player is "stuck in the mud"). Play then passes to the next player. 
+The winner is the first player to reach 100 points.
+
 
 **Why StuckInTheMud?**
 
@@ -134,10 +143,14 @@ mvn test
 ```sh
 mvn test
 ```
-### Roadmap
- Task 1: Implement feature one.
- Task 2: Implement feature two.
- Task 3: Implement feature three.
+## Roadmap
+<ul>
+
+<li>Task 1: Make Stuck In the Mud interactive - add a feature where the user can use the CLI to play.</li>
+<li>Task 2: Add a feature where you can customize the number of players </li>
+<li>Task 3: Add certain modifiers where the chances of getting certain numbers are lower or higher. </li>
+</ul>
+
 
 ---
 
