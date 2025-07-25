@@ -31,6 +31,7 @@
     - [Usage](#usage)
     - [Testing](#testing)
 - [Features](#features)
+- [Roadmap](#roadmap)
 
 ---
 
@@ -56,7 +57,7 @@ This project simplifies complex game development tasks by providing a solid foun
 | :--- | :-------------- | :------------------------------------------------------------------------------------------ |
 | ⚙️  | **Architecture**  | <ul><li>Java-based monolithic application</li><li>Uses MVC pattern for game logic</li><li>Single main module with sub-packages for core components</li></ul> |
 | 🔩 | **Code Quality**  | <ul><li>Consistent Java coding standards</li><li>Uses meaningful class and method names</li><li>Includes inline comments and Javadoc documentation</li></ul> |
-| 📄 | **Documentation** | <ul><li>README provides project overview and setup instructions</li><li>Codebase contains inline Javadoc comments</li><li>No dedicated external documentation or wiki</li></ul> |
+| 📄 | **Documentation** | <ul><li>Codebase contains inline Javadoc comments</li><li>No dedicated external documentation or wiki</li></ul> |
 | 🔌 | **Integrations**  | <ul><li>Minimal external integrations</li><li>Uses Java standard libraries and basic dependencies</li><li>Potential for future integration with CI/CD tools</li></ul> |
 | 🧩 | **Modularity**    | <ul><li>Core game logic encapsulated in separate classes</li><li>Limited modularity; primarily monolithic structure</li><li>Potential to refactor into smaller modules</li></ul> |
 | 🧪 | **Testing**       | <ul><li>Basic unit tests implemented with JUnit</li><li>Test coverage appears limited; mainly core game functions</li><li>No integration or end-to-end tests identified</li></ul> |
@@ -133,6 +134,10 @@ mvn test
 ```sh
 mvn test
 ```
+### Roadmap
+ Task 1: Implement feature one.
+ Task 2: Implement feature two.
+ Task 3: Implement feature three.
 
 ---
 
